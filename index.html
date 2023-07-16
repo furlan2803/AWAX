@@ -1,0 +1,665 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>AWAX</title>
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <img class="logoImg" src="./assets/img/logo.svg">
+            </div>
+            <div class="menu">
+                <img class="menuOpener" src="./assets/img/menu.png">
+                <nav>
+                    <ul>
+                        <li class="active"><a href="">Home</a></li>
+                        <li><a href="">Sobre nós</a></li>
+                        <li><a href="">Serviços</a></li>
+                        <li><a href="">Projetos</a></li>
+                        <li><a href="">Time</a></li>
+                        <li><a href="">Clientes</a></li>
+                        <li><a href="">Preços</a></li>
+                        <li><a href="">Curiosidades</a></li>
+                        <li><a href="">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="banner">
+            <div class="sliders">
+              <div class="slide active">
+                <div class="slideArea">
+                  <h1>Design é sobre<br></h1>
+                  <span>Comunicação</span>
+                  <h2>Harmonia na Casa</h2>
+                  <a href="">Contate-nos</a>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slideArea">
+                  <h1>Transforme<br></h1>
+                  <span>O espaço reflete</span>
+                  <h2>sua personalidade</h2>
+                  <a href="">Contate-nos</a>
+                </div>
+              </div>
+              <div class="slide">
+                <div class="slideArea">
+                  <h1>Refúgio perfeito<br></h1>
+                  <span> Design de interiores</span>
+                  <h2>Conforto e relaxamento</h2>
+                  <a href="">Contate-nos</a>
+                </div>
+              </div>
+            </div>
+            <div class="slidersPointer">
+              <div class="pointer active" onclick="changeSlide(0)"></div>
+              <div class="pointer" onclick="changeSlide(1)"></div>
+              <div class="pointer" onclick="changeSlide(2)"></div>
+            </div>
+        </section> 
+        <div class="default ligth">
+            <div class="sectionTitle">
+                Nossa História
+            </div>
+            <div class="sectionDesc">
+                Criando Espaços Memoráveis desde 2020
+            </div>
+            <div class="sectionBody">
+                <div class="sectionAboutUs">
+                    <div class="sectionAboutUsLeft">
+                        <p>
+                            Somos uma equipe apaixonada pelo design de interiores, dedicada a transformar casas em espaços memoráveis. Combinamos criatividade, habilidade técnica e atenção aos detalhes para criar ambientes funcionais, confortáveis e cheios de personalidade. Valorizamos a colaboração com nossos clientes, buscando entender suas necessidades e estilo de vida, para criar espaços que reflitam quem eles são. Seja para uma reforma completa, renovação parcial ou redesenho, estamos aqui para tornar seus sonhos de design de interiores uma realidade. Junte-se a nós e transforme seu espaço em algo extraordinário!
+                        </p>
+        
+                        <a href="" class="button">Saber mais</a>
+                        
+                    </div>
+                    <div class="sectionAboutUsRight">
+                        <img src="./media/movelAboutUs.jpg">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default dark">
+            <div class="sectionTitle">
+                Nossos Serviços
+            </div>
+            <div class="sectionDesc">
+                Soluções Personalizadas para Cada Projeto de Design de Interiores
+            </div>
+            <div class="sectionBody">
+                <div class="sectionServices">
+                    <div class="service">
+                        <img src="./assets/img/medalha.png">
+                        <h4>Interiores Residencial</h4>
+
+                        <p>Transforme sua casa em um refúgio personalizado, com espaços funcionais.</p>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/img/estrela.png">
+                        <h4>Interiores Comercial</h4>
+
+                        <p>Ambientes corporativos inspiradores, que transmitam a identidade da sua empresa.</p>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/img/relogio.png">
+                        <h4>Decoração</h4>
+
+                        <p>Orientações especializadas para transformar seu ambiente com estilo e personalidade.</p>
+                    </div>
+                    <div class="service">
+                        <img src="./assets/img/balao.png">
+                        <h4>Iluminação</h4>
+
+                        <p>Crie a iluminação perfeita, realçando elementos e criando atmosferas únicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth">
+            <div class="sectionTitle">
+                Projetos Exclusivos
+            </div>
+            <div class="sectionDesc">
+                Inspiração em Cada Detalhe
+            </div>
+            <div class="sectionBody">
+                <div class="sectionProjects">
+                    <div class="sectionProjectFilter">
+                        <ul>
+                            <li>Todos</li>
+                            <li class="active">Fotos</li>
+                            <li>Marca</li>
+                            <li>Anúncios</li>
+                            <li>Desenvolvimento</li>
+                            <li>Diversos</li>
+                        </ul>
+                    </div>
+                    <div class="sectionProjectImg">
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/1.png">
+                                        <div class="imgText">Harmonia Natural e Elementos Orgânicos</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/2.png">
+                                        <div class="imgText">Design Escandinavo: Simplicidade Sofisticada</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/3.png">
+                                        <div class="imgText">Elegância Moderna em Casa</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/4.png">
+                                        <div class="imgText">Conforto Sofisticado e Acolhedor</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/5.png">
+                                        <div class="imgText">Equilíbrio Perfeito entre Estética e Funcionalidade</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/6.png">
+                                        <div class="imgText">Inovação Tecnológica em Ambientes Residenciais</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/7.png">
+                                        <div class="imgText">Design Urbano com Ambiente Aconchegante</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/8.png">
+                                        <div class="imgText">Luxo Residencial com Influências Artísticas</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/9.png">
+                                        <div class="imgText">Estilo Contemporâneo e Minimalista</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/10.png">
+                                        <div class="imgText">Toques Clássicos e Charme Intemporal</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/11.png">
+                                        <div class="imgText">Contrastes Marcantes e Paleta de Cores Vibrante</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="projectImg">
+                            <div class="projectArea">
+                                <div class="projectInfo">
+                                    <div class="imgWrapper">
+                                        <img class="imgProject" src="./media/12.png">
+                                        <div class="imgText">Minimalismo Urbano e Espaços Abertos</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="button">Mais Projetos</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="default dark bgTeam">
+            <div class="sectionTeamArea">
+                <div class="sectionTitle">
+                Nosso Time
+                </div>
+                <div class="sectionDesc">
+                    Promovendo a eficiência na busca por soluções conjuntas
+                </div>
+                <div class="sectionBody">
+                    <div class="sectionTeam">
+                        <div class="sliders">
+                            <div class="slide active">
+                              <div class="slideArea">
+                                <img class="sectionTeamAvatar" src="./media/woman1.png"/>
+                                <div class="sectionTeamName">Sophia Mendes</div>
+                                <div class="sectionTeamFunction">Consultora de Design</div>
+                                <div class="sectionTeamSocial">
+                                    <a href="#"><img src="./assets/img/facebook.png"></a>
+                                    <a href="#"><img src="./assets/img/googleplus.png"></a>
+                                    <a href="#"><img src="./assets/img/linkedin.png"></a>
+                                    <a href="#"><img src="./assets/img/pinterest.png"></a>
+                                    <a href="#"><img src="./assets/img/twitter.png"></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <div class="slideArea">
+                                <img class="sectionTeamAvatar" src="./media/man1.png"/>
+                                <div class="sectionTeamName">Lucas Silva</div>
+                                <div class="sectionTeamFunction">Projetista de Interiores</div>
+                                <div class="sectionTeamSocial">
+                                    <a href="#"><img src="./assets/img/facebook.png"></a>
+                                    <a href="#"><img src="./assets/img/googleplus.png"></a>
+                                    <a href="#"><img src="./assets/img/linkedin.png"></a>
+                                    <a href="#"><img src="./assets/img/pinterest.png"></a>
+                                    <a href="#"><img src="./assets/img/twitter.png"></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <div class="slideArea">
+                                <img class="sectionTeamAvatar" src="./media/woman2.png"/>
+                                <div class="sectionTeamName">Isabella Costa</div>
+                                <div class="sectionTeamFunction">Estilista de Decoração</div>
+                                <div class="sectionTeamSocial">
+                                    <a href="#"><img src="./assets/img/facebook.png"></a>
+                                    <a href="#"><img src="./assets/img/googleplus.png"></a>
+                                    <a href="#"><img src="./assets/img/linkedin.png"></a>
+                                    <a href="#"><img src="./assets/img/pinterest.png"></a>
+                                    <a href="#"><img src="./assets/img/twitter.png"></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slideArea">
+                                  <img class="sectionTeamAvatar" src="./media/man2.png"/>
+                                  <div class="sectionTeamName">André Santos</div>
+                                  <div class="sectionTeamFunction">Gerente de Projetos</div>
+                                  <div class="sectionTeamSocial">
+                                      <a href="#"><img src="./assets/img/facebook.png"></a>
+                                      <a href="#"><img src="./assets/img/googleplus.png"></a>
+                                      <a href="#"><img src="./assets/img/linkedin.png"></a>
+                                      <a href="#"><img src="./assets/img/pinterest.png"></a>
+                                      <a href="#"><img src="./assets/img/twitter.png"></a>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="slidersPointer">
+                    <div class="pointer active" onclick="changeSlide(0)"></div>
+                    <div class="pointer" onclick="changeSlide(1)"></div>
+                    <div class="pointer" onclick="changeSlide(2)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth colorClient">
+            <div class="sectionTitle">
+                Depoimentos
+            </div>
+            <div class="sectionDesc">
+                Ouça nossos clientes
+            </div>
+            <div class="sectionBody">
+                <div class="sectionProjects">
+                    <img class="sectionClientAvatar" src="./media/client1.png">
+                    <div class="sectionClientName">Sophia Mendes</div>
+                    <div class="sectionClientFunction">Consultora de Design</div>
+                    <img class="quote" src="./assets/img/quote.png">
+                    <p class="sectionTextClient">Contratar a consultora de design de interiores foi um divisor de águas para o sucesso da minha boutique. Com sua expertise e atenção aos detalhes, transformaram o espaço em um verdadeiro paraíso da moda, combinando sofisticação e estilo contemporâneo. Minhas vendas aumentaram consideravelmente desde a reforma realizada, e meus clientes constantemente elogiam a atmosfera convidativa e agradável do local.</p>
+                    <div class="slidersPointer">
+                        <div class="pointer active" onclick="changeSlide(0)"></div>
+                        <div class="pointer" onclick="changeSlide(1)"></div>
+                        <div class="pointer" onclick="changeSlide(2)"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth">
+            <div class="sectionBody">
+                <div class="sectionProjects">
+                    <div class="sectionParceiros">
+                        <img class="imgParceiros" src="./media/Parceiro1.png">
+                        <img class="imgParceiros" src="./media/Parceiro2.png">
+                        <img class="imgParceiros" src="./media/Parceiro3.png">
+                        <img class="imgParceiros" src="./media/Parceiro4.png">
+                        <img class="imgParceiros" src="./media/Parceiro5.png">
+                        <img class="imgParceiros" src="./media/Parceiro6.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth colorClient">
+            <div class="sectionPriceArea">
+                <div class="sectionTitle">
+                Nossos Preços
+                </div>
+                <div class="sectionDesc">
+                    Descubra nossos pacotes e preços personalizados 
+                </div>
+                <div class="sectionBody">
+                    <div class="sectionPrice">
+                        <div class="sliders">
+                            <div class="slide active">
+                              <div class="slideArea">
+                                
+                                <div class="sectionPriceName">Básico</div>
+                                <div class="sectionPriceFunction">R$ 500</div>
+                                <ul class="inclusoPreco">
+                                    <li class="inclusoPreco">Consulta inicial</li>
+                                    <li class="inclusoPreco">Sugestões de materiais</li>
+                                    <li class="inclusoPreco">Lista de compras</li>
+                                </ul>
+                                <a href="" class="button">Saber mais</a>
+                               
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <div class="slideArea">
+                               
+                                <div class="sectionPriceName">Intermediário</div>
+                                <div class="sectionPriceFunction">R$ 1.200</div>
+                                <ul class="inclusoPreco">
+                                    <li class="inclusoPreco">Projeto de layout em 2D</li>
+                                    <li class="inclusoPreco">Seleção de mobiliário</li>
+                                    <li class="inclusoPreco">Lista de compras</li>
+                                </ul>
+                                <a href="" class="button">Saber mais</a>
+                              </div>
+                            </div>
+                            <div class="slide">
+                              <div class="slideArea">
+                                
+                                <div class="sectionPriceName">Premium</div>
+                                <div class="sectionPriceFunction">R$ 2.500</div>
+                                <ul class="inclusoPreco"></ul>
+                                    <li class="inclusoPreco">Projeto layout 2D e 3D</li>
+                                    <li class="inclusoPreco">Seleção de decoração</li>
+                                    <li class="inclusoPreco">Acompanhamento</li>
+                                </ul>
+                                <a href="" class="button">Saber mais</a>
+                              </div>
+                            </div>
+                            <div class="slide">
+                                <div class="slideArea">
+                                  
+                                    <div class="sectionPriceName">Personalizado</div>
+                                    <div class="sectionPriceFunction">Consulta</div>
+                                    <ul class="inclusoPreco">
+                                        <li class="inclusoPreco">Projeto personalizado</li>
+                                        <li class="inclusoPreco">Serviço de compras</li>
+                                        <li class="inclusoPreco">Renderizações realistas</li>
+                                    </ul>
+                                    <a href="" class="button">Saber mais</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slidersPointer">
+                    <div class="pointer active" onclick="changeSlide(0)"></div>
+                    <div class="pointer" onclick="changeSlide(1)"></div>
+                    <div class="pointer" onclick="changeSlide(2)"></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth">
+            <div class="sectionTitle">
+                Design E-book
+            </div>
+            <div class="sectionDesc">
+                Técnicas e dicas para criar
+            </div>
+            <div class="sectionBody">
+                <div class="sectionEbook">
+                    <div class="sectionEbook">
+                        <div class="textEbook">
+                            <div class="titulo">
+                                <img class="iconEbook" src="./assets/img/verifica.png">
+                                <p class="tituloEbook">Definindo o objetivo do projeto</p>
+                            </div>
+                            <ul class="conteudoEbook"> 
+                                <li>A importância de estabelecer metas claras</li>
+                                <li>Como definir metas realistas e alcançáveis</li>
+                                <li>Como as metas influenciam o resultado final do projeto</li>
+                            </ul>
+                            <div class="titulo">
+                                <img class="iconEbook" src="./assets/img/verifica.png">
+                                <p class="tituloEbook">Avaliação do espaço</p>
+                            </div>
+                            <ul class="conteudoEbook"> 
+                                <li>Considerações importantes ao avaliar o espaço disponível</li>
+                                <li>Análise das dimensões e layout do ambiente</li>
+                                <li>Identificação das características arquitetônicas relevantes</li>
+                            </ul>
+
+                            <div class="titulo">
+                                <img class="iconEbook" src="./assets/img/verifica.png">
+                                <p class="tituloEbook">Estilos de design de interiores</p>
+                            </div>
+                            <ul class="conteudoEbook">
+                                <li>Visão geral dos estilos de design mais populares</li>
+                                <li>Características e elementos-chave de cada estilo</li>
+                                <li>Identificando o estilo que melhor se adequa às suas preferências</li>
+                            </ul>
+                        </div>
+                        <div class="imgEbook">
+                            <img src="./media/book.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default dark">
+            <div class="sectionTitle">
+                Curiosidades
+            </div>
+            <div class="sectionDesc">
+                Descubra, inspire-se, surpreenda-se!
+            </div>
+            <div class="sectionBody">
+                <div class="sectionFatos">
+                    <div class="fatos">
+                        <h2>15000</h2>
+                        <h4>Interiores Residencial</h4>
+
+                        <p>Ambientes transformados, casas em refúgio personalizado, com espaços funcionais.</p>
+                    </div>
+                    <div class="fatos">
+                        <h2>1050</h2>
+                        <h4>Interiores Comercial</h4>
+
+                        <p>Ambientes corporativos transformados em inspirações, a identidade da sua empresa.</p>
+                    </div>
+                    <div class="fatos">
+                        <h2>4000</h2>
+                        <h4>Decoração</h4>
+
+                        <p>Tranformações que orientam um ambiente com estilo e personalidade.</p>
+                    </div>
+                    <div class="fatos">
+                        
+                        <h2>1000</h2>
+                        <h4>Iluminação</h4>
+
+                        <p>Aplicações de iluminação perfeita, realçando elementos e criando atmosferas únicas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth">
+            <div class="sectionBody">
+                <div class="sectionProjects">
+                    <div class="sectionSocial">
+                        <img class="imgSocial" src="./media/twitter.png">
+                        <img class="imgSocial" src="./media/pinterest.png">
+                        <img class="imgSocial" src="./media/LinkedIn_logo_initials.png">
+                        <img class="imgSocial" src="./media/Facebook_f_logo_(2019).svg.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default ligth colorClient">
+            <div class="sectionPriceArea">
+                <div class="sectionTitle">
+                Contate-nos
+                </div>
+                <div class="sectionDesc">
+                    Entre em contato e agende uma consultoria
+                </div>
+                <div class="sectionBody">
+                    <div class="sectionForms">
+                      <div class="forms">
+                        <div class="input-group">
+                          <input class="inputFormsNome" type="text" placeholder="Nome">
+                          <input class="inputFormsEmail" type="email" placeholder="Email">
+                        </div>
+                        <div class="input-group">
+                          <input class="inputFormsAssunto" type="text" placeholder="Assunto">
+                        </div>
+                        <div class="input-group">
+                            <textarea class="inputFormsMensagem" placeholder="Mensagem"></textarea>
+                        </div>
+                      </div>
+                      <a href="" class="button">Saber mais</a>
+                    </div>
+                  </div>                  
+            </div>
+        </div>
+
+        <div class="default dark bgMapa">
+            <div class="sectionMapArea">
+                <div class="sectionBody">
+                    <div class="sectionMapInfo">
+                        <div class="sectionMapInfoItem">
+                            <div class="imgMap">
+                                <img src="./assets/img/carta.png">
+                            </div>
+                            info@interiordesignstudio.com
+                        </div>
+                        <div class="sectionMapInfoItem">
+                            <div class="imgMap">
+                                <img src="./assets/img/localizacao.png">
+                            </div>
+                            Rua das Artes, 123, Cidade Nova
+                        </div>
+                        <div class="sectionMapInfoItem">
+                            <div class="imgMap">
+                                <img src="./assets/img/telefone.png">
+                            </div>
+                            +55 12 3456-7890
+                        </div>
+                        <div class="sectionMapInfoItem">
+                            <div class="imgMap">
+                                <img src="./assets/img/arroba.png">
+                            </div>
+                            @designstudiooficial
+                        </div>
+                        <div class="sectionMapInfoItem">
+                            <div class="imgMap">
+                                <img src="./assets/img/web.png">
+                            </div>
+                            www.interiordesignstudio.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="default dark">
+            <div class="sectionBody">
+                <div class="footer">
+                    <div class="sectionTeamSocial">
+                        <a href="#"><img src="./assets/img/facebook.png"></a>
+                        <a href="#"><img src="./assets/img/googleplus.png"></a>
+                        <a href="#"><img src="./assets/img/linkedin.png"></a>
+                        <a href="#"><img src="./assets/img/pinterest.png"></a>
+                        <a href="#"><img src="./assets/img/twitter.png"></a>
+                    </div>
+                    <div class="text">
+                        Interior Design Studio é uma empresa especializada em transformar espaços em ambientes excepcionais. Nós nos dedicamos a criar designs personalizados que combinam funcionalidade, estilo e conforto. Entre em contato conosco para descobrir como podemos tornar o seu espaço um verdadeiro refúgio de beleza e harmonia.
+                    </div>
+                    <div class="inscricao">
+                        <input class="inputFormsEmail" type="email" placeholder="E-mail para inscrição">
+                        <br>
+                        <a href="" class="button">Inscrever-se</a>
+                    </div>
+                </div>
+                <div class="textFooter">
+                    © 2023 Interior Design Studio. Todos os direitos reservados. 
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+<script src="./assets/js/style.js"></script>
+</html>
